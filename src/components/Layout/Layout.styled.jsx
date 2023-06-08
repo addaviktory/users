@@ -2,10 +2,11 @@ import styled from '@emotion/styled';
 
 export const OutletBox = styled.div`
   padding-top: 50px;
+  width: 100%;
   padding-bottom: 50px;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
-  width: 100%;
+
 `;

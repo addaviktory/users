@@ -10,8 +10,7 @@ export const UserProfileContainer = styled.div`
 `;
 
 export const BackButton = styled(Link)`
-  font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
@@ -22,16 +21,13 @@ export const BackButton = styled(Link)`
   padding-top: 6px;
   padding-bottom: 6px;
   border-radius: 10px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-
   top: 5px;
   left: 100px;
-
-  box-shadow: -0.58px -0.13px 8.62px 3px rgba(255, 254, 254, 0.5);
+  box-shadow: 1px -1px 20px 3px rgba(255, 254, 254, 0.5)
   position: absolute;
   transition: all 500ms;
 
